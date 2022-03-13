@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins";
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 100px;
+  height: 100vh;
+}
+.container .aboutme {
+  /* display: flex; */
+  align-items: center;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  /* margin-right: 4rem; */
+  height: 3rem;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.navLinks > li {
+  padding-left: 2rem;
+}
+
+.navLinks > li > a {
+  text-decoration: none;
+}
+
+.header .container2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container2 h3 {
+  color: #3A92E2;
+  margin-top:5rem;
+}
+div > h4 {
+  color: #3A92E2;
+  width: auto;
+}
+.header p {
+  display: flex;
+  color: #0C5FAC; 
+  width: 584px;
+  height: 261px;
+  font-weight: 700;
+  font-size: 58px;
+}
+.container2 img {
+  margin-top: 5rem;
+  margin-left: 7rem;
+  height: 370px;
+  width: 270px;
+  object-fit: cover;
+  object-position: center center;
+  filter:drop-shadow(.1em .2em .2em #35A9EA);
+}
+
+.container2 h4 {
+margin-bottom: 1rem;
+}
+.Hire {
+  color: #fff;
+  width: 182px;
+  background-color: #35A9EA;
+  padding: 8px 35px;
+  filter:drop-shadow(.1em .2em .2em #35A9EA);
+  border-radius: 9px;
+  font-weight: 800;
+  font-size: large;
+  text-decoration: none;
+  
+}
+
+section .Browse {
+  /* margin-top: 5rem; */
+  color: #fff;
+  width:20rem;
+  text-align: center;
+  background-color: #35A9EA;
+  padding: 8px 35px;
+  filter:drop-shadow(.1em .2em .2em #35A9EA);
+  border-radius: 9px;
+  font-weight: 800;
+  font-size: large;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column-reverse;
+}
+
+.arrow .Browse {
+  margin-top: 5rem;
+  align-content: flex-end;
+
+}
