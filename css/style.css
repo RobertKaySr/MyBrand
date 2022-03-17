@@ -12,7 +12,6 @@ body {
   flex-wrap: wrap;
 }
 
-
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -57,16 +56,16 @@ body {
 }
 
 .container2 h3 {
-  color: #3A92E2;
-  margin-top:5rem;
+  color: #3a92e2;
+  margin-top: 5rem;
 }
 div > h4 {
-  color: #3A92E2;
+  color: #3a92e2;
   width: auto;
 }
 .header p {
   display: flex;
-  color: #0C5FAC; 
+  color: #0c5fac;
   width: 584px;
   height: 261px;
   font-weight: 700;
@@ -79,33 +78,32 @@ div > h4 {
   width: 270px;
   object-fit: cover;
   object-position: center center;
-  filter:drop-shadow(.1em .2em .2em #35A9EA);
+  filter: drop-shadow(0.1em 0.2em 0.2em #35a9ea);
 }
 
 .container2 h4 {
-margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 .Hire {
   color: #fff;
   width: 182px;
-  background-color: #35A9EA;
+  background-color: #35a9ea;
   padding: 8px 35px;
-  filter:drop-shadow(.1em .2em .2em #35A9EA);
+  filter: drop-shadow(0.1em 0.2em 0.2em #35a9ea);
   border-radius: 9px;
   font-weight: 800;
   font-size: large;
   text-decoration: none;
-  
 }
 
 section .Browse {
   /* margin-top: 5rem; */
   color: #fff;
-  width:20rem;
+  width: 20rem;
   text-align: center;
-  background-color: #35A9EA;
+  background-color: #35a9ea;
   padding: 8px 35px;
-  filter:drop-shadow(.1em .2em .2em #35A9EA);
+  filter: drop-shadow(0.1em 0.2em 0.2em #35a9ea);
   border-radius: 9px;
   font-weight: 800;
   font-size: large;
@@ -122,5 +120,4 @@ section .Browse {
 .arrow .Browse {
   margin-top: 5rem;
   align-content: flex-end;
-
 }

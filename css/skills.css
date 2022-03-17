@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins';
+}
+.logo {
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+    top:1rem;
+    margin-left: 6.5rem;
+  }
+  
+.container {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+.container .mainSkillsSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .bars {
+  display: flex;
+  flex-direction: column;
+  background-color: #35a9ea;
+  width: 1000rem;
+  height: 18rem;
+  -ms-transform: rotate(130deg);
+  transform: rotate(130deg);
+  /* margin: 30rem; */
+}
+
+.mainSkillsSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  margin: auto;
+  height: 80vh;
+  margin-top: 5rem;
+  width: 85vw;
+  filter: drop-shadow(0.1em 0.2em 0.2em #141f25);
+}
